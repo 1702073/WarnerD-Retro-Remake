@@ -9,9 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Title.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Play.unity
+    path: Assets/Scenes/Solo Play.unity
     guid: cc619be82db9d6f428363c9cb2ee3356
   - enabled: 1
-    path: Assets/Scenes/LOL.unity
-    guid: 2932d3414e01bd84e8499adad8ff32d5
+    path: Assets/Scenes/Co-op Play.unity
+    guid: 827d25c83624d5843bf9d0512032eb0b
+  - enabled: 1
+    path: Assets/Scenes/Versus Play.unity
+    guid: c06a26c5f82299d48b25328ea2a2a00b
   m_configObjects: {}
