@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Versus Play.unity
     guid: c06a26c5f82299d48b25328ea2a2a00b
+  - enabled: 1
+    path: Assets/Scenes/Proof.unity
+    guid: 35a5a60cd6781374e915b65f5a017b8d
   m_configObjects: {}
