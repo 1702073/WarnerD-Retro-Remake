@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public int enemyScore = 50;
 
     public int health = 100;
 
@@ -22,6 +23,7 @@ public class Enemy : MonoBehaviour
 
     void Die()
     {
+        ScoreManager.currentScore = ScoreManager.currentScore + enemyScore;
         Destroy(gameObject);
 
     }

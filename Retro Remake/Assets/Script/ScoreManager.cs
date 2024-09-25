@@ -6,7 +6,7 @@ using UnityEngine;
 public class ScoreManager : MonoBehaviour
 {
     public TMPro.TMP_Text Score;
-    public int currentScore = 0;
+    public static int currentScore = 0;
     private int highScore = 0;
     public string format = "";
 
