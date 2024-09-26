@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
 {
     public int enemyScore = 50;
 
-    public int health = 100;
+    public int health = 3;
 
     
     public void TakeDamage(int damage)
@@ -26,5 +26,10 @@ public class Enemy : MonoBehaviour
         ScoreManager.currentScore = ScoreManager.currentScore + enemyScore;
         Destroy(gameObject);
 
+    }
+
+    public void moveEnemy()
+    {
+        
     }
 }
