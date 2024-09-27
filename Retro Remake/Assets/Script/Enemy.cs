@@ -23,13 +23,12 @@ public class Enemy : MonoBehaviour
 
     void Die()
     {
-        ScoreManager.currentScore = ScoreManager.currentScore + enemyScore;
+        ScoreManager.currentScore += enemyScore;
         Destroy(gameObject);
 
-    }
-
-    public void moveEnemy()
-    {
-        
+        if (ScoreManager.currentScore >= PlayerPrefs.GetInt("highScore"))
+        {
+            PlayerPrefs.SetInt("highScore", ScoreManager.currentScore);
+        }
     }
 }
