@@ -22,7 +22,9 @@ public class ShipsGoBrrrr : MonoBehaviour
     {
         if(collision.gameObject.tag == "Boundry")
         {
+            transform.position = new Vector3(transform.position.x, transform.position.y - 1, transform.position.z);
             moveSpeed *= -1;
+
         }
 
     }
